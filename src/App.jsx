@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
-import Abt from './components/abt'
+
 import Tech from './components/Tech'
 import Exp from './components/Exp'
 import Pjts from './components/Pjts'
@@ -20,7 +20,7 @@ function App() {
 
    <Navbar/>
    <Main/>
- {/* <Abt/> */}
+
  <Tech/>
  <Exp/>
  <Pjts/>
